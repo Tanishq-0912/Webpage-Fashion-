@@ -77,7 +77,7 @@ $sql=mysqli_query($con,"insert into contact(name,email,subject,message)values(
 </section>
 
 <section id="form-details" >
-<form action="contact.php" method="POST">
+<form name="contact" netlify>
     <span>Leave a message</span>
     <h2> we love to hear from you</h2>
     <input type="text" id="name" name="name" placeholder="Name" required="">
